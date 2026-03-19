@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center; /* Centers vertically */
+    min-height: 100vh; /* Makes the content occupy the full height */
+    background-color: #f9f9f9; /* Optional background color */
+    font-family: Arial, sans-serif; /* Font styling */
+}
+
+/* Styling the content container */
+.content {
+    width: 80%; /* Adjust as needed */
+    max-width: 600px; /* Set a maximum width */
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Center-aligns the text */
+}
+
+/* Table styling */
+table {
+    width: 100%; /* Table spans full width of the container */
+    border-collapse: collapse; /* Removes gaps between borders */
+    margin-top: 20px; /* Spacing above the table */
+}
+
+/* Table header styling */
+table th {
+    background-color: #007bff; /* Header background color */
+    color: white; /* Header text color */
+    padding: 10px;
+}
+
+/* Table row styling */
+table td {
+    padding: 10px;
+    border: 1px solid #ddd; /* Border for cells */
+    text-align: center; /* Centers content within cells */
+}
+
+/* Links inside table */
+table td a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+table td a:hover {
+    text-decoration: underline;
+}
+
+/* Input form styling */
+form {
+    margin-top: 20px; /* Space above the form */
+    display: flex;
+    justify-content: center; /* Centers form items */
+    gap: 10px; /* Space between inputs */
+}
+
+form input[type="text"] {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    flex: 1; /* Input spans remaining space */
+}
+
+form input[type="submit"] {
+    padding: 8px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+    background-color: #0056b3;
+}
