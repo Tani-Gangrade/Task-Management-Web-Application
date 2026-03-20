@@ -1,16 +1,13 @@
 # Task Manager
-
 Task Manager is a simple task management web application built using Flask and SQLAlchemy. It allows users to create, update, and delete tasks.
 
 ## Features
-
 - Add new tasks with a description.
 - View a list of all tasks.
 - Update existing tasks.
 - Delete tasks.
 
 ## Prerequisites
-
 - Python 3.12 or higher
 - Flask
 - Flask-SQLAlchemy
