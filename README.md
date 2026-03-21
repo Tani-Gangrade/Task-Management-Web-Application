@@ -1,4 +1,4 @@
-# Task Manager
+# Task Management Web Application
 Task Manager is a simple task management web application built using Flask and SQLAlchemy. It allows users to create, update, and delete tasks.
 
 ## Features
