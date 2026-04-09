@@ -11,16 +11,6 @@
 - Python 3.12 or higher
 - Flask
 - Flask-SQLAlchemy
-  
-1. Create a virtual environment:
-   - *python3 -m venv env*
-   - *source env/bin/activate  # On Windows, use `env\Scripts\activate`*
-   
-2. Install dependencies:
-   - *pip install flask flask-sqlalchemy*
-   
-3. Run the application
-   - *python app.py*
 
 ## Usage
 - Add Task: Enter a task description in the input field and click "Add Task".
