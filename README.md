@@ -1,6 +1,8 @@
 # Task Management Web Application
  It's a simple task management web application built using Flask and SQLAlchemy. It allows users to create, update, and delete tasks.
 
+---
+
 ## Features
 - Add new tasks with a description.
 - View a list of all tasks.
